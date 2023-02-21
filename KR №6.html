@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./KR №6.js" defer></script>
+
+    <title>KR</title>
+  </head>
+  <body>
+    <section>
+      <h1>
+        Обработка базы национальных праздничных дней (вариант №6 )
+      </h1>
+    </section>
+    <section>
+      <label for="god">Введите год :</label>
+      <input type="text" name="input" value="2015" id="god" />
+      <br />
+      <label for="strana_cod">Введите код страны (например RU) :</label>
+      <input type="text" name="input" value="RU" id="strana_cod" />
+      <button type="button" onclick="fetchData(god, strana_cod)">
+        Выполнить запрос
+      </button>
+    </section>
+  </body>
+</html>
